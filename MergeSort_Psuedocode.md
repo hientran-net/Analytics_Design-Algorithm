@@ -21,14 +21,14 @@ FUNCTION merge(a[], left, middle, right)
         END IF
     END WHILE
 
-    // Sao chép các phần tử còn lại của firstArray (nếu có)
+    // Sao chép các phần tử còn lại của firstArray
     WHILE i < SIZE(firstArray) DO
         a[left] = firstArray[i]
         INCREMENT left
         INCREMENT i
     END WHILE
 
-    // Sao chép các phần tử còn lại của secondArray (nếu có)
+    // Sao chép các phần tử còn lại của secondArray
     WHILE j < SIZE(secondArray) DO
         a[left] = secondArray[j]
         INCREMENT left
