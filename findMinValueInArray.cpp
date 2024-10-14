@@ -4,10 +4,9 @@ using namespace std;
 
 int findMin(int arr[], int left, int right) 
 {
-
     if (left == right) 
         return arr[left];
-        
+
     int mid = (left + right) / 2;
 
     int minLeft = findMin(arr, left, mid);

@@ -5,4 +5,3 @@ MergeSort(a, left, right):
     MergeSort(a, left, middle)
     MergeSort(a, middle + 1, right)
     MergeSort(a, left, middle, right)
-
