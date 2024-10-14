@@ -1,0 +1,5 @@
+QuickSort(a, left, right):
+    if left < right
+        p = partition(a, left, right)
+        QuickSort(a, left, p - 1)
+        QuickSort(a, p + 1, right)
