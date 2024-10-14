@@ -1,0 +1,20 @@
+countEqualK(arr, k, left, right)
+    if left > right 
+        return 0
+    if left == right
+        return arr[left] == k ? 1 : 0
+
+    mid = left + (right - left) / 2
+
+    return countEqualK(arr, k, left, mid) + countEqualK(arr, k, mid + 1, right)
+
+countBetweenXY(arr, x, y, left, right)
+    if left > right 
+        return 0
+    if left == right
+        return (arr[left] > x && arr[left] < y) ? 1 : 0 
+
+    mid = left + (right + left) / 2
+
+    return countBetweenXY(arr, x, y, left, mid) + countBetweenXY(arr, x, y, mid + 1, right)
+    
