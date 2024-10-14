@@ -1,0 +1,8 @@
+MergeSort(a, left, right):
+    if left >= right
+        return
+    middle = ( left + right) / 2
+    MergeSort(a, left, middle)
+    MergeSort(a, middle + 1, right)
+    MergeSort(a, left, middle, right)
+
