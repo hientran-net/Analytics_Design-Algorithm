@@ -8,16 +8,16 @@ double power(double a, int n) {
 	if (n == 1)
 		return a;
 
-	if (n % 2 == 0)
-	{
-		double half_power = power(a, n / 2);
-		return half_power * half_power;
-	}
-	else
-	{
-		double half_power = power(a, (n - 1) / 2);
-		return half_power * half_power * a;
-	}
+        if (n % 2 == 0)
+        {
+            double halfOfPower = power(a, n / 2);
+            return halfOfPower * halfOfPower;
+        }
+        else
+        {
+            double halfOfPower = power(a, (n - 1) / 2);
+            return halfOfPower * halfOfPower * a;
+        }
 }
 
 int main() {
