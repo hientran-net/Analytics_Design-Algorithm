@@ -1,0 +1,10 @@
+findMin(a, left, right)
+    if left == right 
+        return a[left]
+
+    mid = (left + right) / 2
+
+    minLeft = findMin(a, left, mid)
+    minRight = findMin(a, mid + 1, right)
+
+    return min(minLeft, minRight)
