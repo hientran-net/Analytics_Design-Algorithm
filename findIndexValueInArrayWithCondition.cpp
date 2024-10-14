@@ -13,7 +13,7 @@ bool isPrime(int num) {
 	return true;
 }
 
-void lastPrimeNumber(const vector<int>& arr, int left, int right, int result[]) {
+void lastPrimeNumber(vector<int>& arr, int left, int right, int result[]) {
 	if (left > right) {
 		result[0] = -1;
 		result[1] = -1;

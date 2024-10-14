@@ -1,0 +1,28 @@
+lastPrimeNumber(a, left, right, result)
+    if left > right 
+        result[0] = - 1
+        result[1] = - 1
+        return
+
+    if isPrime(a[right])
+        result[0] = right
+        result[1] = a[right]
+        return
+
+    lastPrimeNumber(a, left, right - 1, result)
+
+firstPositiveNumber(a, left, right, result)
+    if left > right 
+        result[0] = -1
+        result[1] = -1
+        return
+    
+    if a[left] > 0
+        result[0] = left
+        result[1] = a[left]
+        return
+
+    firstPositiveNumber(a, left + 1, right, result)
+
+    
+
