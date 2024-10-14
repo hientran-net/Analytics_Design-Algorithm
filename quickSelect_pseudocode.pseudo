@@ -1,0 +1,24 @@
+partition(a, left, right)
+    pivot = a[right]
+    i = left
+
+    for j = left; j < right; j++
+        if a[j] > pivot
+            swap(a[i], a[j])
+            i++
+
+    swap(a[i], a[right])
+    return i
+
+quickSelect(a, left, right, k)
+    if left == right
+        return a[left]
+    
+    pivotIndex = partition(a, left, right)
+
+    if k == pivotIndex
+        return a[k]
+    else if k < pivotIndex
+        return quickSelect(a, left, pivotIndex - 1, k)
+    else 
+        return quickSelect(a, pivotIndex + 1, right, k )
