@@ -1,0 +1,13 @@
+FUNCTION maxSumRec(arr, n)
+    IF n <= 0 THEN
+        RETURN 0
+    ENDIF
+    IF n == 1 THEN
+        RETURN arr[0]
+    ENDIF
+
+    pick = arr[n - 1] + maxSumRec(arr, n - 2)  
+    notPick = maxSumRec(arr, n - 1)           
+
+    RETURN MAX(pick, notPick)                  
+END FUNCTION
