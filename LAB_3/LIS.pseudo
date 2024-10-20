@@ -1,0 +1,18 @@
+FUNCTION LIS(A: array of integers, n: integer, L: array of integers) RETURNS integer
+    maxElement = L[0]
+
+    FOR i FROM 0 TO n-1 DO
+
+        FOR j FROM 0 TO i-1 DO
+            
+            IF A[i] > A[j] THEN
+                
+                L[i] = MAX(L[i], L[j] + 1)
+            END IF
+        END FOR
+        
+        maxElement = MAX(maxElement, L[i])
+    END FOR
+    
+    RETURN maxElement
+END FUNCTION
