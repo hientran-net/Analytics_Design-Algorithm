@@ -1,0 +1,11 @@
+FUNCTION maxSubarraySum(arr)
+    res = arr[0]                
+    maxEnding = arr[0]          
+
+    FOR i FROM 1 TO LENGTH(arr) - 1 DO
+        maxEnding = MAX(maxEnding + arr[i], arr[i]) 
+        res = MAX(res, maxEnding)                   
+    ENDFOR
+
+    RETURN res                 
+END FUNCTION
