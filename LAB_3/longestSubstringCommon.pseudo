@@ -1,0 +1,14 @@
+Function longestCommonSubsequence(str1, str2):
+    m = length of str1
+    n = length of str2
+
+    Create a 2D array dp of size (m+1) x (n+1) and initialize all elements to 0
+    
+    for i from 1 to m:
+        for j from 1 to n:
+            if str1[i-1] == str2[j-1]:
+                dp[i][j] = dp[i-1][j-1] + 1
+            else:
+                dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+    
+    return dp[m][n]
