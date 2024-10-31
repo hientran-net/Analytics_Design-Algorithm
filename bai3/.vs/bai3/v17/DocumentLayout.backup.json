@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Ph\u00E2n t\u00EDch thi\u1EBFt k\u1EBF gi\u1EA3i thu\u1EADt\\lab4\\bai3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E51B7E7-AC63-4C82-B390-0980FBB3BCC3}|bai3\\bai3.vcxproj|E:\\Ph\u00E2n t\u00EDch thi\u1EBFt k\u1EBF gi\u1EA3i thu\u1EADt\\lab4\\bai3\\bai3\\bai3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2E51B7E7-AC63-4C82-B390-0980FBB3BCC3}|bai3\\bai3.vcxproj|solutionrelative:bai3\\bai3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bai3.cpp",
+              "DocumentMoniker": "E:\\Ph\u00E2n t\u00EDch thi\u1EBFt k\u1EBF gi\u1EA3i thu\u1EADt\\lab4\\bai3\\bai3\\bai3.cpp",
+              "RelativeDocumentMoniker": "bai3\\bai3.cpp",
+              "ToolTip": "E:\\Ph\u00E2n t\u00EDch thi\u1EBFt k\u1EBF gi\u1EA3i thu\u1EADt\\lab4\\bai3\\bai3\\bai3.cpp",
+              "RelativeToolTip": "bai3\\bai3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T14:08:30.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

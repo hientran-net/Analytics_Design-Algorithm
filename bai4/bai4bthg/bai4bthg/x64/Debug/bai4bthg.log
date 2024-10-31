@@ -1,0 +1,15 @@
+﻿  bai4bthg.cpp
+E:\Phân tích thiết kế giải thuật\lab4\bai4bthg\bai4bthg\bai4bthg.cpp(11,13): error C2131: expression did not evaluate to a constant
+      E:\Phân tích thiết kế giải thuật\lab4\bai4bthg\bai4bthg\bai4bthg.cpp(11,11):
+      failure was caused by a read of a variable outside its lifetime
+      E:\Phân tích thiết kế giải thuật\lab4\bai4bthg\bai4bthg\bai4bthg.cpp(11,11):
+      see usage of 'n'
+  
+E:\Phân tích thiết kế giải thuật\lab4\bai4bthg\bai4bthg\bai4bthg.cpp(11,23): error C2131: expression did not evaluate to a constant
+      E:\Phân tích thiết kế giải thuật\lab4\bai4bthg\bai4bthg\bai4bthg.cpp(11,21):
+      failure was caused by a read of a variable outside its lifetime
+      E:\Phân tích thiết kế giải thuật\lab4\bai4bthg\bai4bthg\bai4bthg.cpp(11,21):
+      see usage of 'n'
+  
+E:\Phân tích thiết kế giải thuật\lab4\bai4bthg\bai4bthg\bai4bthg.cpp(15,13): warning C4552: '>>': result of expression not used
+E:\Phân tích thiết kế giải thuật\lab4\bai4bthg\bai4bthg\bai4bthg.cpp(20,13): warning C4552: '>>': result of expression not used

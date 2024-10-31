@@ -1,0 +1,4 @@
+﻿  bai3.cpp
+E:\Phân tích thiết kế giải thuật\lab4\bai3\bai3\bai3.cpp(10,24): warning C4244: 'initializing': conversion from '__int64' to 'long', possible loss of data
+E:\Phân tích thiết kế giải thuật\lab4\bai3\bai3\bai3.cpp(23,13): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+  bai3.vcxproj -> E:\Phân tích thiết kế giải thuật\lab4\bai3\x64\Debug\bai3.exe

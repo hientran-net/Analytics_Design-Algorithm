@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Ph\u00E2n t\u00EDch thi\u1EBFt k\u1EBF gi\u1EA3i thu\u1EADt\\lab4\\bai4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{310D5CB8-F808-4F2F-B806-0F5A77017830}|bai4bthg\\bai4bthg.vcxproj|E:\\Ph\u00E2n t\u00EDch thi\u1EBFt k\u1EBF gi\u1EA3i thu\u1EADt\\lab4\\bai4\\bai4bthg\\bai4bthg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{310D5CB8-F808-4F2F-B806-0F5A77017830}|bai4bthg\\bai4bthg.vcxproj|solutionrelative:bai4bthg\\bai4bthg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bai4bthg.cpp",
+              "DocumentMoniker": "E:\\Ph\u00E2n t\u00EDch thi\u1EBFt k\u1EBF gi\u1EA3i thu\u1EADt\\lab4\\bai4\\bai4bthg\\bai4bthg.cpp",
+              "RelativeDocumentMoniker": "bai4bthg\\bai4bthg.cpp",
+              "ToolTip": "E:\\Ph\u00E2n t\u00EDch thi\u1EBFt k\u1EBF gi\u1EA3i thu\u1EADt\\lab4\\bai4\\bai4bthg\\bai4bthg.cpp",
+              "RelativeToolTip": "bai4bthg\\bai4bthg.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T15:18:54.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
